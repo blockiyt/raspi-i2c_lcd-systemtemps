@@ -8,7 +8,7 @@ Get the installer from the [releases](https://github.com/blockiyt/raspi-i2c_lcd-
 
 ```sh
 wget https://github.com/blockiyt/raspi-i2c_lcd-systemtemps/releases/download/v1.0/install_temp.sh
-chmod +x installer_temp.sh
+chmod +x install_temp.sh
 ./install_temp.sh
 ```
 
