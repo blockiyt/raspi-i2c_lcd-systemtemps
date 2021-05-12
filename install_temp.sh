@@ -16,4 +16,4 @@ if [ -f "lcddriver.py" ]; then
 else
     sudo wget https://github.com/blockiyt/raspi-i2c_lcd-systemtemps/releases/download/v1.0/lcddriver.py
 fi
-sudo apt-get install python-smbus git i2c-tools -y
+sudo apt-get install python2 python-smbus git i2c-tools -y
