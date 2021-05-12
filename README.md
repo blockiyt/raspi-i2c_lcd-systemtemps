@@ -7,6 +7,7 @@ It requires [Python](https://www.python.org/) v2 to run.
 Get the installer from the [releases](https://github.com/blockiyt/raspi-i2c_lcd-systemtemps/releases) and run it, it installs all the things you'll need:
 
 ```sh
+wget https://github.com/blockiyt/raspi-i2c_lcd-systemtemps/releases/download/v1.0/install_temp.sh
 chmod +x installer_temp.sh
 ./installer_temp.sh
 ```
