@@ -22,8 +22,8 @@ while True:
                 cpuT = "CPU temp: %.2f" % cpu_tempC
                 gpuT = "GPU temp: %.2f" % gpu_tempC
 
-                display.lcd_display_string(cpuT + "C", 1)
-                display.lcd_display_string(gpuT + "C", 2)
+                display.display_string(cpuT + "C", 1)
+                display.display_string(gpuT + "C", 2)
                 time.sleep(5)
         except KeyboardInterrupt:
                 print("KeyboardInterrupt - Cleaning up!")
