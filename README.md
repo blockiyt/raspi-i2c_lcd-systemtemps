@@ -15,6 +15,8 @@ chmod +x install_temp.sh
 Then after you've done it, just run and have fun!:
 
 ```sh
+cd temperature_i2c_led/
+and
 python temp.py
 or
 python2 temp.py
