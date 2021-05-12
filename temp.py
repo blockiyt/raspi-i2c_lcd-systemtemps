@@ -26,5 +26,5 @@ while True:
                 display.lcd_display_string(gpuT + "C", 2)
                 time.sleep(5)
         except KeyboardInterrupt:
-                print("KeyboardInterrupt")
+                print("KeyboardInterrupt - Cleaning up!")
                 display.clear()
