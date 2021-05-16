@@ -28,3 +28,4 @@ while True:
         except KeyboardInterrupt:
                 print("KeyboardInterrupt - Cleaning up!")
                 display.clear()
+                exit()
