@@ -17,3 +17,4 @@ else
     sudo wget https://github.com/blockiyt/raspi-i2c_lcd-systemtemps/releases/latest/download/lcddriver.py
 fi
 sudo apt-get install python2 python-smbus git i2c-tools -y
+echo "Done!"
